@@ -1,0 +1,25 @@
+{
+  "name": "rice-bot",
+  "version": "1.0.0",
+  "description": "Ricy's Bot for Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lavalink": "java -jar Lavalink.jar",
+    "dev": "node ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cxllm/reddit": "^1.0.1-10",
+    "count-lines-in-file": "^1.1.0",
+    "discord.js": "^12.5.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.8",
+    "random-puppy": "^1.1.0",
+    "random-reddit": "^1.2.0",
+    "util": "^0.12.3",
+    "wc": "0.0.1"
+  }
+}
